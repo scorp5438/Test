@@ -14,3 +14,16 @@ int FindLen(string[] arr)
     }
     return res;
 }
+
+void CreateNewArray(string[] oldarr, string[] newarr)
+{
+    int index = 0;
+    for (int i = 0; i < oldarr.Length; i++)
+    {
+        if (oldarr[i].Length <=3)
+        {
+            newarr[index] = oldarr[i];
+            index++;
+        }
+    }
+}
