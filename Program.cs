@@ -1,6 +1,7 @@
 ﻿string[] array = {"Hello", "2", "world", ":-)"};
 
 string[] newArray = new string[FindLen(array)];
+CreateNewArray(array, newArray);
 
 int FindLen(string[] arr)
 {
@@ -27,3 +28,5 @@ void CreateNewArray(string[] oldarr, string[] newarr)
         }
     }
 }
+
+Console.Write($"{string.Join(", ", newArray)}");
