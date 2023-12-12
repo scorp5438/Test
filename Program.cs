@@ -1,5 +1,7 @@
 ﻿string[] array = {"Hello", "2", "world", ":-)"};
 
+string[] newArray = new string[FindLen(array)];
+
 int FindLen(string[] arr)
 {
     int res = 0;
