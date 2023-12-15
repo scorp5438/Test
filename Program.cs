@@ -1,4 +1,4 @@
-﻿string[] array = {"Hello", "2", "world", ":-)"};
+﻿string[] array = {"Hello", "2", "13", "world", ":-)"};
 
 string[] newArray = new string[FindLen(array)];
 CreateNewArray(array, newArray);
